@@ -33,6 +33,7 @@ This docker image contains the following software stack:
 
 ### History
 
+- 0.1.1 - Remove xml & xslt stuff.
 - 0.1 - Initial release.
 
 
