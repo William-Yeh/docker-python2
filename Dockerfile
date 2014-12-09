@@ -19,9 +19,14 @@ RUN apt-get update -y  && \
             python2.7       \
             python2.7-dev   \
             python-pip        && \
-    apt-get clean
+    \
+    \
+    pip install --upgrade pip virtualenv  && \
+    \
+    \
+    apt-get clean  && \
+    rm -rf /var/lib/apt/lists/*
 
-RUN pip install --upgrade pip virtualenv
 
 
 
